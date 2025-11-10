@@ -22,10 +22,12 @@ Currently, the **core implementation** of the eviction queue is complete, and th
 
 - [Design of dynamic rate configuration and indicators for queues and their documents](https://github.com/karmada-io/karmada/pull/6613)  
 - [Implementation of dynamic rate control eviction queue and indicators](https://github.com/karmada-io/karmada/pull/6675)  
-- [Boundary fixes and test changes for the taint manager (to be discussed and modified later after consultation)](https://github.com/karmada-io/karmada/pull/6605)  
-- [Resource cleanup plug-in function implementation and test coverage (follow up in subsequent versions)](https://github.com/karmada-io/karmada/pull/6709)  
+- [API change EvictionQueueOptions to configure dynamic rate limit](https://github.com/karmada-io/karmada/pull/6777)
+- [Metircs to improve the Observability of failover evictionqueue ](https://github.com/karmada-io/karmada/pull/6778)
 - [Profiling Karmada zh documentation](https://github.com/karmada-io/website/pull/841)  
 - [Karmada contributor zh documentation](https://github.com/karmada-io/website/pull/842)
+- [Boundary fixes and test changes for the taint manager (to be discussed and modified later after consultation)](https://github.com/karmada-io/karmada/pull/6605)  
+- [Resource cleanup plug-in function implementation and test coverage (follow up in subsequent versions)](https://github.com/karmada-io/karmada/pull/6709)  
 
 ---
 
@@ -36,3 +38,4 @@ This OSPP experience has been a **valuable period of growth** for me. It was not
 From my initial confusion when facing a large codebase to being able to independently design and contribute code, every step was made possible with the **community's help**. Open discussions, rigorous code reviews, and selfless knowledge sharing—these are the **cornerstones of open-source collaboration**. They've transformed me from a mere code user into a **contributor**.
 
 Although OSPP is coming to an end, this is just the **beginning of my open-source journey**.
+
